@@ -941,7 +941,7 @@ footer h4 {
 #grid_container_info {
     display: grid;
     grid-template-columns: auto 900px auto;
-    grid-template-rows: 50px 2000px 70px;
+    grid-template-rows: 50px 1420px 70px;
     grid-template-areas: 
         "nav nav nav"
         "sidebar1 main sidebar2"
@@ -1396,8 +1396,8 @@ footer h4 {
 }
 #grid_container_info {
     display:grid;
-    grid-template-columns: auto;
-    grid-template-rows: 50px 2100px 70px 70px 70px;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 1420px 70px 70px 70px;
    grid-template-areas: 
     "nav"
     "main"
